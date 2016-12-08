@@ -12,7 +12,7 @@ Script `install.sh` builds Dockerfile and copy `rd-atom` to `/usr/local/bin`. Th
 
 ## Usage
 
-After run `install.sh`, you are good to use your dockerized Atom. To launch Atom, just type the following command in the desired directory:
+After run `install.sh`, you are good to use it. To launch Atom, just type the following command in the desired directory:
 
 ```
 rd-atom .
