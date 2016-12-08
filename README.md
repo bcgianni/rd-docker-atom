@@ -8,7 +8,7 @@ git clone git@github.com:ResultadosDigitais/rd-docker-atom.git
 cd rd-docker-atom
 ./install.sh
 ```
-Script `install.sh` builds Dockerfile and copy `rd-atom` to `/usr/local/bin`. The first build can take a long time, so be patient.
+Script `install.sh` builds Dockerfile and copies the executable `rd-atom` to `/usr/local/bin`. The first build can take some time, so be patient.
 
 ## Usage
 
