@@ -4,7 +4,7 @@ A dockerized Atom with ESLint, Rubocop and Reek linters already installed.
 
 ## How to install?
 ```
-git clone 
+git clone git@github.com:ResultadosDigitais/rd-docker-atom.git
 cd rd-docker-atom
 ./install.sh
 ```
