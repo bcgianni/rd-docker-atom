@@ -1,9 +1,9 @@
 # DESCRIPTION: Create the atom editor in a container
 #
 #	# Build atom image
-#	docker build -t rd-atom .
+#	docker build -t rd-docker-atom .
 #
-#	docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -v $PWD:PWD -w $PWD rd-atom
+#	docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -v $PWD:PWD -w $PWD rd-docker-atom
 #
 FROM ruby:slim 
 
