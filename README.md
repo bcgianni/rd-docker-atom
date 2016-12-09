@@ -1,14 +1,14 @@
 # rd-docker-atom
 
-A dockerized Atom with linters ESLint, Rubocop and Reek already installed.
+A dockerized Atom with ESLint, Rubocop and Reek already installed.
 
 ## How to install?
 ```
 git clone git@github.com:ResultadosDigitais/rd-docker-atom.git
 cd rd-docker-atom
-./install.sh
+sudo ./install.sh
 ```
-Script `install.sh` builds Dockerfile and copies the executable `rd-atom` to `/usr/local/bin`. The first build can take some time, so be patient.
+The first build can take some time, so be patient :)
 
 ## Usage
 
