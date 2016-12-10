@@ -6,7 +6,6 @@ A dockerized Atom with ESLint, Rubocop and Reek already installed.
 ```
 curl -sSL https://raw.githubusercontent.com/ResultadosDigitais/rd-docker-atom/master/install.sh | sudo sh
 ```
-The first build can take some time, so be patient :)
 
 ## Usage
 
