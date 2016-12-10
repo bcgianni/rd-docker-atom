@@ -1,10 +1,6 @@
 BIN_PATH="/usr/local/bin/rd-atom"
 DOWNLOAD_URL="https://raw.githubusercontent.com/ResultadosDigitais/rd-docker-atom/master/rd-atom"
 
-build_dockerfile() {
-  docker build -t rd-docker-atom .
-}
-
 download_executable() {
   curl -o "$BIN_PATH" "$DOWNLOAD_URL"
   chmod +x "$BIN_PATH"
@@ -18,5 +14,4 @@ validate_user_permission() {
 }
 
 validate_user_permission
-build_dockerfile
 download_executable
