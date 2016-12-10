@@ -1,1 +1,1 @@
-xhost + > /dev/null 2>&1 && docker run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -v $PWD:$PWD -w $PWD rd-docker-atom $1 > /dev/null 2>&1 
+xhost + > /dev/null 2>&1 && docker run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -v $PWD:$PWD -w $PWD rd-docker-atom $@ > /dev/null 2>&1 
