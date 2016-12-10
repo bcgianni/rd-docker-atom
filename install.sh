@@ -13,5 +13,10 @@ validate_user_permission() {
   fi
 }
 
+pull_image() {
+  docker pull resultadosdigitais/rd-atom
+}
+
 validate_user_permission
+pull_image
 download_executable
