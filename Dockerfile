@@ -55,6 +55,7 @@ RUN gem install reek
 RUN apm install linter linter-eslint
 RUN apm install linter-rubocop
 RUN apm install linter-reek
+RUN apm install atom-beautify
 
 # autorun atom
 ENTRYPOINT [ "atom", "--foreground" ]
