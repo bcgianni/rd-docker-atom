@@ -1,6 +1,6 @@
 # rd-docker-atom
 
-A dockerized Atom with ESLint, Rubocop and Reek already installed.
+A dockerized Atom with ESLint, Rubocop, Reek and Beautify already installed.
 
 ## How to install?
 ```
