@@ -5,7 +5,7 @@
 #
 #	docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY -v $PWD:PWD -w $PWD rd-docker-atom
 #
-FROM ruby:slim 
+FROM ruby:slim
 
 # install dependencies
 RUN apt-get update && apt-get install -y \
@@ -56,6 +56,9 @@ RUN apm install linter linter-eslint
 RUN apm install linter-rubocop
 RUN apm install linter-reek
 RUN apm install atom-beautify
+RUN apm install cucumber
+RUN apm install cucumber-step
+RUN apm install cucumber-autocomplete
 
 # autorun atom
 ENTRYPOINT [ "atom", "--foreground" ]
