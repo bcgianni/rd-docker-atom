@@ -31,7 +31,8 @@ You can install XQuartz using homebrew with `brew cask install xquartz` or direc
 
 #### Run XQuartz
 
-Start XQuartz from command line using open -a XQuartz. In the XQuartz preferences, go to the “Security” tab and make sure you’ve got “Allow connections from network clients” ticked:
+Start XQuartz from command line using `open -a XQuartz`. In the XQuartz preferences, go to the “Security” tab and make sure you’ve got “Allow connections from network clients” ticked. :arrow_down:
+
 ![image](https://media.giphy.com/media/3oKIPcYYSgNt1UTYUo/giphy.gif)
 
 * Close XQuartz (cmd+Q)
