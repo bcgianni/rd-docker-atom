@@ -37,6 +37,14 @@ Start XQuartz from command line using `open -a XQuartz`. In the XQuartz preferen
 
 * Close XQuartz (cmd+Q)
 
+#### Make sure that your environment is up! :whale:
+
+Docker should be running on your computer before executing `rd-atom`.
+
+For example, before everything I need to:
+1. open [Docker Quickstart Terminal](https://docs.docker.com/toolbox/toolbox_install_mac/)
+2. run `docker-machine start`
+
 #### Run RD-ATOM
 
 Just run `rd-atom .` on a specific directory or to open a specific file.
