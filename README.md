@@ -7,7 +7,7 @@ A dockerized Atom with ESLint, Rubocop, Reek, Beautify and Cucumber plugins alre
 curl -sSL https://raw.githubusercontent.com/ResultadosDigitais/rd-docker-atom/master/install.sh | sudo sh
 ```
 
-## Instalation & Usage
+## Installation & Usage
 
 ### On Linux
 
