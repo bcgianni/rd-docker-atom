@@ -27,7 +27,7 @@ Install docker using `brew cask install docker` or directly from the website [he
 
 You can install XQuartz using homebrew with `brew cask install xquartz` or directly from the website [here](https://www.xquartz.org/). At the time of writing, I had 2.7.11 installed on my machine with OSX El Capitan. 
 
-:red_circle: **After installing XQuartz restart your machine.**
+### :red_circle: **After installing XQuartz restart your machine.** :red_circle:
 
 #### Run XQuartz
 
