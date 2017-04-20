@@ -19,17 +19,17 @@ rd-atom .
 
 ### On macOS El Captain +
 
-#### Install Docker for Mac :arrow_right: only if you don't have a previousily install
+#### :one: Install Docker for Mac :arrow_right: only if you don't have a previously installation
 
 Install docker using `brew cask install docker` or directly from the website [here](https://docs.docker.com/docker-for-mac/).
 
-#### Install XQuartz
+#### :two: Install XQuartz
 
 You can install XQuartz using homebrew with `brew cask install xquartz` or directly from the website [here](https://www.xquartz.org/). At the time of writing, I had 2.7.11 installed on my machine with OSX El Capitan. 
 
 ### :red_circle: **After installing XQuartz restart your machine (reboot your computer).** :red_circle:
 
-#### Run XQuartz
+#### :three: Run XQuartz
 
 Start XQuartz from command line using `open -a XQuartz`. In the XQuartz preferences, go to the “Security” tab and make sure you’ve got “Allow connections from network clients” ticked. :arrow_down:
 
@@ -37,7 +37,7 @@ Start XQuartz from command line using `open -a XQuartz`. In the XQuartz preferen
 
 * Close XQuartz (cmd+Q)
 
-#### Make sure that your environment is up! :whale:
+#### :four: Make sure that your environment is up! :whale:
 
 Docker should be running on your computer before executing `rd-atom`.
 
@@ -45,6 +45,6 @@ For example, before everything I need to:
 1. open [Docker Quickstart Terminal](https://docs.docker.com/toolbox/toolbox_install_mac/)
 2. run `docker-machine start`
 
-#### Run RD-ATOM
+#### :five: Run RD-ATOM
 
 Just run `rd-atom .` on a specific directory or to open a specific file.
