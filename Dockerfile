@@ -59,6 +59,7 @@ RUN apm install atom-beautify
 RUN apm install cucumber
 RUN apm install cucumber-step
 RUN apm install cucumber-autocomplete
+RUN apm install platformio-ide-terminal
 
 # autorun atom
 ENTRYPOINT [ "atom", "--foreground" ]
