@@ -59,6 +59,7 @@ RUN apm install atom-beautify
 RUN apm install cucumber
 RUN apm install cucumber-step
 RUN apm install cucumber-autocomplete
+RUN apm install docs-snippets
 
 # autorun atom
 ENTRYPOINT [ "atom", "--foreground" ]
