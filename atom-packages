@@ -1,0 +1,13 @@
+linter
+intentions
+busy-signal
+linter-ui-default
+linter-eslint
+linter-rubocop
+linter-reek
+atom-beautify
+cucumber
+cucumber-step
+cucumber-autocomplete
+open-in-browser
+atomic-chrome
