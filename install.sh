@@ -1,11 +1,3 @@
-BIN_PATH="/usr/local/bin/rd-atom"
-DOWNLOAD_URL="https://raw.githubusercontent.com/ResultadosDigitais/rd-docker-atom/master/rd-atom"
-
-download_executable() {
-  curl -o "$BIN_PATH" "$DOWNLOAD_URL"
-  chmod +x "$BIN_PATH"
-}
-
 validate_user_permission() {
   if [ $(id -u) -ne 0 ] ; then
     echo  "Please run as root"
@@ -13,10 +5,15 @@ validate_user_permission() {
   fi
 }
 
-pull_image() {
-  docker pull resultadosdigitais/rd-atom
+build_image() {
+  docker build -t rd-atom .
+}
+
+install_executable() {
+  chmod +x rd-atom
+  cp rd-atom /usr/local/bin/
 }
 
 validate_user_permission
-pull_image
-download_executable
+build_image
+install_executable

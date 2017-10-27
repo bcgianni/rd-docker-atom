@@ -4,10 +4,18 @@ A dockerized Atom with ESLint, Rubocop, Reek, Beautify and Cucumber plugins alre
 
 ## How to install?
 ```
-curl -sSL https://raw.githubusercontent.com/ResultadosDigitais/rd-docker-atom/master/install.sh | sudo sh
+1. git clone git@github.com:ResultadosDigitais/rd-docker-atom.git
+2. cd rd-docker-atom
+3. Open the file atom-packages and add your desired packages
+4. sudo ./install
 ```
 
-## Installation & Usage
+## How to uninstall?
+```
+sudo ./uninstall
+```
+
+## Usage
 
 ### On Linux
 
@@ -25,7 +33,7 @@ Install docker using `brew cask install docker` or directly from the website [he
 
 #### :two: Install XQuartz
 
-You can install XQuartz using homebrew with `brew cask install xquartz` or directly from the website [here](https://www.xquartz.org/). At the time of writing, I had 2.7.11 installed on my machine with OSX El Capitan. 
+You can install XQuartz using homebrew with `brew cask install xquartz` or directly from the website [here](https://www.xquartz.org/). At the time of writing, I had 2.7.11 installed on my machine with OSX El Capitan.
 
 ### :red_circle: **After installing XQuartz restart your machine (reboot your computer).** :red_circle:
 
