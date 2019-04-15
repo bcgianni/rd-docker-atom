@@ -38,10 +38,13 @@ RUN  mkdir /root/.atom \
      && echo '"*":\n  core:\n    telemetryConsent: "no"\n  welcome:\n    showOnStartup: false' > /root/.atom/config.cson
 
 # install eslint, rubocop and reek
-RUN apt-get update && apt-get install -y npm
+RUN apt-get update && apt-get install -y curl software-properties-common
+RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
+RUN apt-get update && apt-get install -y nodejs build-essential
 ENV PKG=eslint-config-airbnb-base
 RUN npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
 RUN gem install rubocop
+RUN gem install rubocop-performance
 RUN gem install rubocop-rspec
 RUN gem install reek
 
