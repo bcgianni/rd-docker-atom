@@ -22,7 +22,7 @@ sudo ./uninstall
 After install, you are good to use it. To launch Atom, just type the following command in the desired directory:
 
 ```
-rd-atom .
+datom .
 ```
 
 ### On macOS El Captain +
@@ -47,12 +47,12 @@ Start XQuartz from command line using `open -a XQuartz`. In the XQuartz preferen
 
 #### :four: Make sure that your environment is up! :whale:
 
-Docker should be running on your computer before executing `rd-atom`.
+Docker should be running on your computer before executing `datom`.
 
 For example, before everything I need to:
 1. open [Docker Quickstart Terminal](https://docs.docker.com/toolbox/toolbox_install_mac/)
 2. run `docker-machine start`
 
-#### :five: Run RD-ATOM
+#### :five: Run datom
 
-Just run `rd-atom .` on a specific directory or to open a specific file.
+Just run `datom .` on a specific directory or to open a specific file.

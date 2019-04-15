@@ -6,6 +6,3 @@ linter-eslint
 linter-rubocop
 linter-reek
 atom-beautify
-cucumber
-cucumber-step
-cucumber-autocomplete

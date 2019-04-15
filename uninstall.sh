@@ -6,17 +6,17 @@ validate_user_permission() {
 }
 
 remove_images() {
-  docker rmi -f resultadosdigitais/rd-atom
-  docker rmi -f resultadosdigitais/rd-atom:v2
-  docker rmi -f rd-atom
+  docker rmi -f resultadosdigitais/datom
+  docker rmi -f resultadosdigitais/datom:v2
+  docker rmi -f datom
 }
 
 remove_volume() {
-  docker volume rm rd-atom
+  docker volume rm datom
 }
 
 delete_executable() {
-  rm -f /usr/local/bin/rd-atom
+  rm -f /usr/local/bin/datom
 }
 
 validate_user_permission

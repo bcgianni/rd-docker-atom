@@ -6,12 +6,12 @@ validate_user_permission() {
 }
 
 build_image() {
-  docker build -t rd-atom .
+  docker build -t datom .
 }
 
 install_executable() {
-  chmod +x rd-atom
-  cp rd-atom /usr/local/bin/
+  chmod +x datom
+  cp datom /usr/local/bin/
 }
 
 validate_user_permission
